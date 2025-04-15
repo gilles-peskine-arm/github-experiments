@@ -23,7 +23,7 @@ jobs:
       DUMP_github: ${{toJSON(github)}}
       DUMP_vars: ${{toJSON(vars)}}
     steps:
-      - run:
+      - run: |
           export
           printf '\ngithub =\n%s\n' "${DUMP_github}"
           printf '\nvars =\n%s\n' "${DUMP_vars}"
