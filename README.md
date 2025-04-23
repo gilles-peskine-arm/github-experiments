@@ -1,2 +1,2 @@
 # github-experiments
-Make a pull request
+Update a pull request
